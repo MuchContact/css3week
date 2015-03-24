@@ -1,0 +1,169 @@
+
+@import "compass/reset";
+@import "compass/css3";
+
+$font-color: red;
+$font-size: 4em;
+$font-weight: 700;
+
+html {
+    font-size:62.5%;
+    height: 100%;
+	body {
+		height: 100%;
+		width:  100%;
+		margin: 0 auto;
+		.container{
+		    	width: 80%;
+  			margin: 0 auto;
+		}
+		.header{
+			width: 100%;
+			  height: 300px;
+			  background-image: url("../image/header-bg.jpeg");
+			  background-size: 100% 100%;
+			  overflow: hidden;
+			  h1 {
+				  text-align: center;
+				  margin: 0px auto;
+				  color: white;
+				  font-size: 20px;
+				  font-weight: 700;
+				  padding-top: 80px;
+			}
+			h2{
+				margin: 0 auto;
+				 color: white;
+				 text-align: center;
+				 font-size: 12px;
+				 font-style: italic;
+			}
+			  .searchContainer{
+				  margin: 10px auto;
+				  width: 400px;
+				  box-sizing: border-box;
+
+				  input{
+				  	width: 70%;
+				  	  opacity: 0.55;
+					  padding: 10px 10px;
+					  color: blue;
+				  }
+				  button{
+				  	  background-color: rgb(101, 217, 169);
+					  color: white;
+					  padding: 10px 10px;
+					  padding-right: 10px;
+					  opacity: 0.89;
+				  }
+			  }
+		}
+		.content{
+			height: 600px;
+			width: 80%;
+  			margin: 0 auto;
+  			p{
+  				margin: 30px auto;
+  				text-align: center;
+  				font-weight: bolder;
+  			}
+  			.flag{
+  				margin-top: 100px;
+  			}
+  			table{
+  				width: 100%;
+  				td{
+  					width: 30%;
+  				}
+  				input, img{
+  					display: block;
+  					margin: 0 auto;
+  				}
+  				label{
+  					text-align: center;
+  					display: block;
+  				}
+  				.halfWidth{
+  					width: 50%
+  				}
+  				.leftLogo{
+  					float: right;
+					 margin-top: 0px;
+					 margin-right: 30px;
+					 img{
+					 	margin-top: 20px;
+					 }
+  				}
+  				.rightContent{
+  					float: right;
+  					width: 70%;
+  					p{
+  						text-align: left;
+  						margin: 20px auto;
+  						margin-bottom: 8px;
+  						font-weight: bolder;
+  					}
+  					span{
+
+  					}
+  				}
+
+
+  			}
+		}
+		.tail{
+			width: 100%;
+			height: 200px;
+			background-image: url("../image/tail-bg.jpg");
+  			margin: 0 auto;
+  			.searchContainer{
+  				width: 400px;
+  				padding-top: 30px;
+  				margin: 0 auto;
+  			}
+		}
+		.footer{
+			width: 100%;
+			height: 30px;
+			a{
+				text-decoration: none;
+	  			margin-right: 10px;
+			}
+			#navigator{
+				margin: 10px;
+			}
+		}
+		.circleText{
+		  	border-radius: 50%;
+			  width: 30px;
+			  height: 30px;
+			  text-align: center;
+			  border-color: gray;
+			  border-width: 1px;
+		}
+		#floatIntro{
+				position: absolute;
+				  top: 260px;
+				  left: 10%;
+			ul{
+				  list-style: none;
+				  background-color: white;
+				  height: 80px;
+				  border: 1px rgb(199, 189, 189) solid;
+			}
+			li{
+				  float: left;
+				  width: 25%;
+				  text-align: center;
+				  height: 100%;
+				  border-left: 1px rgb(228, 219, 219) solid;
+				  box-sizing: border-box;
+				p{
+					  margin-top: 20px;
+					  font-size: 20px;
+					  font-weight: bolder;
+				}
+			}
+		}
+	}
+}

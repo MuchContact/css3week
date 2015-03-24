@@ -1,0 +1,251 @@
+/* line 5, ../../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 9, ../sass/style.scss */
+html {
+  font-size: 62.5%;
+  height: 100%;
+}
+/* line 12, ../sass/style.scss */
+html body {
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+}
+/* line 16, ../sass/style.scss */
+html body .container {
+  width: 80%;
+  margin: 0 auto;
+}
+/* line 20, ../sass/style.scss */
+html body .header {
+  width: 100%;
+  height: 300px;
+  background-image: url("../image/header-bg.jpeg");
+  background-size: 100% 100%;
+  overflow: hidden;
+}
+/* line 26, ../sass/style.scss */
+html body .header h1 {
+  text-align: center;
+  margin: 0px auto;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  padding-top: 80px;
+}
+/* line 34, ../sass/style.scss */
+html body .header h2 {
+  margin: 0 auto;
+  color: white;
+  text-align: center;
+  font-size: 12px;
+  font-style: italic;
+}
+/* line 41, ../sass/style.scss */
+html body .header .searchContainer {
+  margin: 10px auto;
+  width: 400px;
+  box-sizing: border-box;
+}
+/* line 46, ../sass/style.scss */
+html body .header .searchContainer input {
+  width: 70%;
+  opacity: 0.55;
+  padding: 10px 10px;
+  color: blue;
+}
+/* line 52, ../sass/style.scss */
+html body .header .searchContainer button {
+  background-color: #65d9a9;
+  color: white;
+  padding: 10px 10px;
+  padding-right: 10px;
+  opacity: 0.89;
+}
+/* line 61, ../sass/style.scss */
+html body .content {
+  height: 600px;
+  width: 80%;
+  margin: 0 auto;
+}
+/* line 65, ../sass/style.scss */
+html body .content p {
+  margin: 30px auto;
+  text-align: center;
+  font-weight: bolder;
+}
+/* line 70, ../sass/style.scss */
+html body .content .flag {
+  margin-top: 100px;
+}
+/* line 73, ../sass/style.scss */
+html body .content table {
+  width: 100%;
+}
+/* line 75, ../sass/style.scss */
+html body .content table td {
+  width: 30%;
+}
+/* line 78, ../sass/style.scss */
+html body .content table input, html body .content table img {
+  display: block;
+  margin: 0 auto;
+}
+/* line 82, ../sass/style.scss */
+html body .content table label {
+  text-align: center;
+  display: block;
+}
+/* line 86, ../sass/style.scss */
+html body .content table .halfWidth {
+  width: 50%;
+}
+/* line 89, ../sass/style.scss */
+html body .content table .leftLogo {
+  float: right;
+  margin-top: 0px;
+  margin-right: 30px;
+}
+/* line 93, ../sass/style.scss */
+html body .content table .leftLogo img {
+  margin-top: 20px;
+}
+/* line 97, ../sass/style.scss */
+html body .content table .rightContent {
+  float: right;
+  width: 70%;
+}
+/* line 100, ../sass/style.scss */
+html body .content table .rightContent p {
+  text-align: left;
+  margin: 20px auto;
+  margin-bottom: 8px;
+  font-weight: bolder;
+}
+/* line 114, ../sass/style.scss */
+html body .tail {
+  width: 100%;
+  height: 200px;
+  background-image: url("../image/tail-bg.jpg");
+  margin: 0 auto;
+}
+/* line 119, ../sass/style.scss */
+html body .tail .searchContainer {
+  width: 400px;
+  padding-top: 30px;
+  margin: 0 auto;
+}
+/* line 125, ../sass/style.scss */
+html body .footer {
+  width: 100%;
+  height: 30px;
+}
+/* line 128, ../sass/style.scss */
+html body .footer a {
+  text-decoration: none;
+  margin-right: 10px;
+}
+/* line 132, ../sass/style.scss */
+html body .footer #navigator {
+  margin: 10px;
+}
+/* line 136, ../sass/style.scss */
+html body .circleText {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  border-color: gray;
+  border-width: 1px;
+}
+/* line 144, ../sass/style.scss */
+html body #floatIntro {
+  position: absolute;
+  top: 260px;
+  left: 10%;
+}
+/* line 148, ../sass/style.scss */
+html body #floatIntro ul {
+  list-style: none;
+  background-color: white;
+  height: 80px;
+  border: 1px #c7bdbd solid;
+}
+/* line 154, ../sass/style.scss */
+html body #floatIntro li {
+  float: left;
+  width: 25%;
+  text-align: center;
+  height: 100%;
+  border-left: 1px #e4dbdb solid;
+  box-sizing: border-box;
+}
+/* line 161, ../sass/style.scss */
+html body #floatIntro li p {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bolder;
+}
